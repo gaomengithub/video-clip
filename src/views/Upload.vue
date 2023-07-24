@@ -83,7 +83,6 @@ function submit() {
         v$.value.$touch()
     }
     else {
-        fliename = 
         const base64 = btoa(encodeURIComponent(JSON.stringify(state)))
         console.log(base64)
     }
