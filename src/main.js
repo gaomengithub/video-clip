@@ -13,12 +13,7 @@ import { createApp } from 'vue'
 // Plugins
 import { registerPlugins } from '@/plugins'
 
-
-import VueVideoPlayer from '@videojs-player/vue'
-import 'video.js/dist/video-js.css'
-
 const app = createApp(App)
 
 registerPlugins(app)
-app.use(VueVideoPlayer)
 app.mount('#app')
